@@ -20,7 +20,7 @@ body {
 .blog-container {
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
+    width: 1000px;
     min-width: 40%;
     margin: auto;
 }
@@ -113,11 +113,107 @@ body {
 
 a:visited {
     text-decoration: none;
-    color: blue;
+    color: #007bff;
 }
 
 @media only screen and (max-width: 900px){
     .blog-row {
         flex-direction: column;
     }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ Part2 ~~~~~~~~~~~~~~~~~~~ */
+
+.blog-main {
+    display:flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.blog-side{
+    width: 60%;
+    margin-left: 15rem;
+    padding-right: 2rem;
+}
+
+.blog-aside {
+    flex-shrink: 2;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-right: 5rem;
+}
+
+.aside-about {
+    background-color: rgb(245, 245, 245);
+    padding: 2rem;
+}
+
+.blog-content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.box {
+    border: 2px solid rgb(245, 245, 245);
+    padding-bottom: 1rem;
+}
+
+.box2 {
+    border: 2px solid rgb(245, 245, 245);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.archives, .elsewhere {
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.archives ul li, .elsewhere ul li {
+    list-style-type: none;
+}
+
+.archives ul li:nth-of-type(1) {
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+hr{
+    height: 1px;
+    background-color:rgb(245, 245, 245);
+    border:none;
+}
+
+.blog-side li {
+    margin-left: 5rem;
+    padding: 0.3rem;
+}
+
+.badge {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.badge1, .badge2 {
+    border: 1px solid;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.badge1 {
+    color: #007bff;
+}
+
+.badge2 {
+    color:rgb(180, 178, 178)
 }
