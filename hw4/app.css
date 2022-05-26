@@ -28,3 +28,17 @@ main {
 ul {
     list-style-type: none;
 }
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 50%;
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 800px;
+}
+
+.todo-items{
+  margin: auto;
+}

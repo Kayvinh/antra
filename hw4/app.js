@@ -31,7 +31,6 @@ const printTodos = async () => {
     const todoItems = document.querySelector('.todo-items');
     const template = createTmp(data);
     render(todoItems, template)
-
 }
 
 printTodos();
