@@ -1,0 +1,30 @@
+/* Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+ 
+/* Set font size to 10, easier to calculate */
+html {
+  font-size: 62.5%;
+}
+ 
+body {
+  font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 800px;
+    min-width: 1000px;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
